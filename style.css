@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+
+.header {
+   background-color: #ffffff;
+   /* position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 2; */
+}
+
+.header-lzd {
+    margin: 0 40px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.images-logo {
+    height: 40px;
+    width: 127px;
+}
+
+.images-sale {
+    height: 45px;
+    width: 188px;
+}
+
+.logo-lazada {
+    display: inline-block;
+    height: 39px;
+    width: 200px;
+}
+
+.images-sale-lazada {
+    width: 100%;
+    height: auto;
+}
+
+.search-box-input {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+
+
+.search-icon {
+    background: #f57224;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shop {
+    margin: 0 0 0 20px;
+    position: relative;
+    width: 40px;
+}
+
+.sale-lzd {
+    margin-top: 24px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  background: #f0f1f6;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 45px;
+  display: flex;
+  border-radius: 2px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+    font-family: Roboto-Regular, Helvetica, sans-serif;
+    padding: 13px 19px;
+    color: #212121;
+    font-size: 14px;
+    background: #eff0f5;
+}
+
+.search-icon {
+  background: #f57224; /* cam */
+  color: #fff;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-icon i {
+  font-size: 18px;
+}
+
+.main {
+    padding: 0 65px;
+}
+
+.sale-lzd {
+    width: 100%;
+}
+
+.sale-lzd-voicher {
+    width: 100%;
+}
+
+.section-time {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.time {
+    background-color: #d3232a;
+    width: 40px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time-sale {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.section-status-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.section-time-p {
+    color: #202020;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.status-text {
+    color: #f57224;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.flex-time {
+    display: flex;
+    align-items: center;
+}
+
+.padding {
+    padding-top: 24px;
+}
+
+h4 {
+    padding-top: 24px;
+    background-color: #f5f5f5;
+    color: #424242;
+    font-size: 22px;
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+.btn {
+    border: 1px solid #f57224;
+    background-color: #ffffff;
+    border-radius: 2px;
+    height: 35px;
+    color: #f57224;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section {
+    background-color: #fff;
+    max-height: 100%;
+}
+
+.btn-shop-all {
+    margin-right: 11px;
+}
+
+.img-brand {
+    /* width: 188px; */
+}
+
+.img-brand-sale {
+    width: 100%;
+    height: 100%;
+}
+
+.price {
+    color: #f57224;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.sale {
+    text-decoration: line-through;
+    color: #d5d5d5;
+}
+
+.shorten-p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.information-order {
+    cursor: pointer;
+    max-width: 100%;
+    height: 290px;
+    margin-right: 12px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.product-info {
+    margin: 4px 8px 0;
+}
+
+.flex-lazmall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-list {
+  /* display: flex;
+  gap: 15px; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x: auto; 
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.price-sale {
+
+}
+
+.shop-item {
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 12px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.shop-item img {
+  width: 100%;
+}
+
+.shop-item h3 {
+  font-size: 14px;
+  margin: 8px 0 4px;
+}
+
+.shop-item p {
+  font-size: 12px;
+  color: #666;
+}
+
+.logo-shop {
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: block;
+    height: 52px;
+    margin: -25px auto 0;
+    overflow: hidden;
+    padding: 4px;
+    position: relative;
+    width: 52px !important;
+}
+
+.cover-logo {
+    height: 188px;
+    width: 188px;
+}
+
+.information-order:hover {
+    box-shadow: 0 0 8px rgba(91, 91, 255, 0.6);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.shop-item:hover {
+    box-shadow: 0 0 8px rgba(138, 131, 131, 0.6);
+}
+
+.categories-img {
+    height: 80px;
+    width: 80px;
+    display: block;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.categories-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.card-categories {
+    background-color: #fff;
+    min-height: 297px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.card-categories-comp-container {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    max-height: 100%;
+    padding-top: 16px;
+    max-width: 100%;
+}
+
+.card-categories-comp-container p {
+    color: #212121;
+    font-size: 14px;
+    text-align: center;
+    margin: 8px 12px 0
+}
+
+.fa {
+    color: #faca51;
+    font-size: 11px;
+    height: 11px;
+    line-height: 11px
+}
+
+.icon span {
+    color: #9e9e9e;
+    font-size: 12px;;
+}
