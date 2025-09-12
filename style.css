@@ -221,6 +221,7 @@ h4 {
     color: #f57224;
     font-size: 18px;
     margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 .sale {
@@ -239,8 +240,10 @@ h4 {
 .information-order {
     cursor: pointer;
     max-width: 100%;
-    height: 290px;
+    max-height: 100%;
     margin-right: 12px;
+    background: #fff;
+    margin-bottom: 20px;
 }
 
 .flex {
@@ -282,6 +285,9 @@ h4 {
     margin-right: 12px;
     max-width: 100%;
     z-index: 1;
+}
+.shop-item1 {
+    margin-right: 0 !important;
 }
 
 .shop-item img {
@@ -377,4 +383,103 @@ h4 {
 .icon span {
     color: #9e9e9e;
     font-size: 12px;;
+}
+
+.lazmall {
+  display: inline-block;
+  width: 52px;
+  height: 16px;
+
+}
+
+.common-lazmall {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.name-lazmall {
+    font-size: 14px;
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+.reduce-sale {
+    color: #212121;
+    font-size: 12px;
+    margin-left: 4px;
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+.icon {
+    margin-top: 8px;
+}
+
+.product-info {
+    padding: 4px 8px 12px;
+}
+
+.more-btn {
+    border: 1px solid #1a9cb8;
+    color: #1a9cb8;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 387px;
+}
+
+.load-more-btn {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 9px;
+    padding-top: 24px;
+}
+
+.voicher {
+    margin-right: 12px;
+}
+
+.voicher img {
+    display: inline-block;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: auto;
+}
+
+.flex-voicher {
+    display: flex;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin: 0 65px;
+}
+.footer-column {
+    margin: 0 65px;
+    width: 25%;
+}
+
+.footer-column h4 {
+    color: #0f136d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #0f136d;
+
+}
+
+.footer-column ul {
+    list-style-type: none;
 }
