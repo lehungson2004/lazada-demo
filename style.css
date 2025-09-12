@@ -114,7 +114,8 @@ body {
 }
 
 .main {
-    padding: 0 65px;
+    margin: 0 auto;
+    width: 1188px;
 }
 
 .sale-lzd {
@@ -459,11 +460,16 @@ h4 {
     border-top: 1px solid #e2e2e2;
     padding-bottom: 24px;
     padding-top: 24px;
-    margin: 0 65px;
 }
+
+
 .footer-column {
-    margin: 0 65px;
     width: 25%;
+}
+
+.footer-voucher {
+    margin: 0 auto;
+    width: 1188px;
 }
 
 .footer-column h4 {
@@ -482,4 +488,91 @@ h4 {
 
 .footer-column ul {
     list-style-type: none;
+}
+
+.flex-footer-column {
+    display: flex;
+    background-color: #f4f4f6;
+    color: #fff;
+    padding: 20px 0 25px;
+    margin: 0 auto;
+    width: 1188px;
+}
+
+.download-the-app {
+    width: 42px;
+    height: 42px;
+}
+
+.download-the-app img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-download-the-app {
+    margin-top: 25px;
+    display: flex;
+    width: 50%;
+}
+
+.footer-column h4 {
+    padding-top: 0;
+}
+
+.title {
+    padding: 0 15px;
+}
+
+.title-always-better {
+    color: #f36f36;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+.title-download-the-app {
+    color: #0f136d;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2px;
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+.download {
+    height: 94px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.download-app {
+    height: 42px;
+    width: 126px;
+}
+
+.download-app-left {
+    margin-left: 20px;
+}
+
+.download-app img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-second {
+    background-color: #fff;
+}
+
+.footer-second h4{
+    background-color: #fff;
+}
+
+.lzd-footer-inner {
+    width: 1188px;
+    margin: 0 auto;
+}
+
+.lzd-footer-width-32 {
+    overflow: hidden;
+    width: 32%;
 }
