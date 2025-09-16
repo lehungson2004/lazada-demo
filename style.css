@@ -5,16 +5,25 @@
 
 body {
     background-color: #f5f5f5;
-    font-size: 12px;
+    font-size: var(--font-size-twelve);
+}
+
+:root {
+    --white: #fff;
+    --font-base: 14px;
+    --orange: #f57224;
+    --blue: #0f136d;
+    --font-style: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif;
+    --font-size-twelve: 12px;
+    --black: #212121;
+    --gray: #606060;
+    --border: 1px solid #e2e2e2;
+    --background-color-shades: #f4f4f6;
+    --height: 40px;
 }
 
 .header {
-   background-color: #ffffff;
-   /* position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 2; */
+   background-color: var(--white);
 }
 
 .header-lzd {
@@ -27,7 +36,7 @@ body {
 }
 
 .images-logo {
-    height: 40px;
+    height: var(--height);
     width: 127px;
 }
 
@@ -90,18 +99,17 @@ body {
     flex: 1;
     border: none;
     outline: none;
-    font-size: 14px;
+    font-size: var(--font-base);
     background: transparent;
     font-family: Roboto-Regular, Helvetica, sans-serif;
     padding: 13px 19px;
-    color: #212121;
-    font-size: 14px;
+    color: var(--black);
     background: #eff0f5;
 }
 
 .search-icon {
   background: #f57224; /* cam */
-  color: #fff;
+  color: var(--white);
   width: 48px;
   display: flex;
   align-items: center;
@@ -136,7 +144,7 @@ body {
     background-color: #d3232a;
     width: 40px;
     height: 35px;
-    color: #fff;
+    color: var(--white);
     font-size: 16px;
     border-radius: 2px;
     display: flex;
@@ -162,13 +170,13 @@ body {
 
 .section-time-p {
     color: #202020;
-    font-size: 14px;
+    font-size: var(--font-base);
     margin-right: 10px;
 }
 
 .status-text {
-    color: #f57224;
-    font-size: 14px;
+    color: var(--orange);
+    font-size: var(--font-base);
     margin-left: 20px;
 }
 
@@ -186,31 +194,26 @@ h4 {
     background-color: #f5f5f5;
     color: #424242;
     font-size: 22px;
-    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
-}
+    font-family:var(--font-style)}
 
 .btn {
     border: 1px solid #f57224;
-    background-color: #ffffff;
+    background-color: var(--white);
     border-radius: 2px;
     height: 35px;
-    color: #f57224;
-    font-size: 14px;
+    color: var(--orange);
+    font-size: var(--font-base);
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .section {
-    background-color: #fff;
+    background-color: var(--white);
     max-height: 100%;
 }
 
 .btn-shop-all {
     margin-right: 11px;
-}
-
-.img-brand {
-    /* width: 188px; */
 }
 
 .img-brand-sale {
@@ -219,7 +222,7 @@ h4 {
 }
 
 .price {
-    color: #f57224;
+    color: var(--orange);
     font-size: 18px;
     margin-bottom: 4px;
     margin-top: 4px;
@@ -243,7 +246,7 @@ h4 {
     max-width: 100%;
     max-height: 100%;
     margin-right: 12px;
-    background: #fff;
+    background: var(--white);
     margin-bottom: 20px;
 }
 
@@ -263,8 +266,6 @@ h4 {
 }
 
 .shop-list {
-  /* display: flex;
-  gap: 15px; */
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     overflow-x: auto; 
@@ -272,12 +273,8 @@ h4 {
     justify-content: space-around;
 }
 
-.price-sale {
-
-}
-
 .shop-item {
-    background-color: #fff;
+    background-color: var(--white);
     cursor: pointer;
     display: block;
     height: 270px;
@@ -296,17 +293,17 @@ h4 {
 }
 
 .shop-item h3 {
-  font-size: 14px;
+  font-size: var(--font-base);
   margin: 8px 0 4px;
 }
 
 .shop-item p {
-  font-size: 12px;
+  font-size: var(--font-size-twelve);
   color: #666;
 }
 
 .logo-shop {
-    background-color: #fff;
+    background-color: var(--white);
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
     box-sizing: border-box;
     display: block;
@@ -339,7 +336,7 @@ h4 {
     height: 80px;
     width: 80px;
     display: block;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 0 auto;
 }
 
@@ -350,7 +347,7 @@ h4 {
 }
 
 .card-categories {
-    background-color: #fff;
+    background-color: var(--white);
     min-height: 297px;
     width: 100%;
     display: grid;
@@ -358,9 +355,9 @@ h4 {
 }
 
 .card-categories-comp-container {
-    background-color: #fff;
-    border-bottom: 1px solid #e2e2e2;
-    border-right: 1px solid #e2e2e2;
+    background-color: var(--white);
+    border-bottom: var(--border);
+    border-right: var(--border);
     box-sizing: border-box;
     max-height: 100%;
     padding-top: 16px;
@@ -368,8 +365,8 @@ h4 {
 }
 
 .card-categories-comp-container p {
-    color: #212121;
-    font-size: 14px;
+    color: var(--black);
+    font-size: var(--font-base);
     text-align: center;
     margin: 8px 12px 0
 }
@@ -383,7 +380,7 @@ h4 {
 
 .icon span {
     color: #9e9e9e;
-    font-size: 12px;;
+    font-size: var(--font-size-twelve);;
 }
 
 .lazmall {
@@ -401,16 +398,14 @@ h4 {
 
 
 .name-lazmall {
-    font-size: 14px;
-    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
-}
+    font-size: var(--font-base);
+    font-family:var(--font-style)}
 
 .reduce-sale {
-    color: #212121;
-    font-size: 12px;
+    color: var(--black);
+    font-size: var(--font-size-twelve);
     margin-left: 4px;
-    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
-}
+    font-family:var(--font-style)}
 
 .icon {
     margin-top: 8px;
@@ -425,9 +420,9 @@ h4 {
     color: #1a9cb8;
     cursor: pointer;
     display: block;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
+    font-size: var(--font-base);
+    height: var(--height);
+    line-height: var(--height);
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
@@ -457,7 +452,7 @@ h4 {
 
 .flex-voicher {
     display: flex;
-    border-top: 1px solid #e2e2e2;
+    border-top: var(--border);
     padding-bottom: 24px;
     padding-top: 24px;
 }
@@ -473,7 +468,7 @@ h4 {
 }
 
 .footer-column h4 {
-    color: #0f136d;
+    color: var(--blue);
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
@@ -481,8 +476,8 @@ h4 {
 
 .footer-column ul li a {
     text-decoration: none;
-    font-size: 12px;
-    color: #0f136d;
+    font-size: var(--font-size-twelve);
+    color: var(--blue);
 
 }
 
@@ -492,16 +487,16 @@ h4 {
 
 .flex-footer-column {
     display: flex;
-    background-color: #f4f4f6;
-    color: #fff;
+    background-color: var(--background-color-shades);
+    color: var(--white);
     padding: 20px 0 25px;
     margin: 0 auto;
     width: 1188px;
 }
 
 .download-the-app {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: var(--height);
 }
 
 .download-the-app img {
@@ -527,16 +522,14 @@ h4 {
     color: #f36f36;
     font-size: 16px;
     font-weight: 300;
-    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
-}
+    font-family:var(--font-style)}
 
 .title-download-the-app {
-    color: #0f136d;
-    font-size: 14px;
+    color: var(--blue);
+    font-size: var(--font-base);
     font-weight: 300;
     padding-top: 2px;
-    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
-}
+    font-family:var(--font-style)}
 
 .download {
     height: 94px;
@@ -560,11 +553,11 @@ h4 {
 }
 
 .footer-second {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .footer-second h4{
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .lzd-footer-inner {
@@ -589,7 +582,7 @@ h4 {
 .lzd-icon-payment {
     margin: 0 25px 10px 0;
     width: 53px;
-    height: 39px;
+    height: var(--height);
     display: inline-block   
 }
 
@@ -600,13 +593,13 @@ h4 {
 
 .lzd-app-payment {
     margin: 0 25px 10px 0;
-    width: 39px;
-    height: 39px;
+    width: 40px;
+    height: var(--height);
     display: inline-block
 }
 
 .lzd-app-payment img {
-    height: 39px;
+    height: var(--height);
     width: 100%;
 } 
 
@@ -664,7 +657,7 @@ h4 {
 
 .lzd-footer-verified-item {
     width: 107px;
-    height: 40px;
+    height: var(--height);
     margin-bottom: 10px;
 }
 
@@ -686,14 +679,14 @@ h4 {
 .text-lazada p{
     color: rgb(136, 136, 136);
     background-color: rgb(244, 244, 246);
-    font-size: 12px;
+    font-size: var(--font-size-twelve);
     line-height: 14px;
     margin-bottom: 12px;
     margin-top: 6px;
 }
 
 .text-lazada h3 {
-    color: #606060;
+    color: var(--gray);
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -701,13 +694,22 @@ h4 {
 }
 
 .footer-third {
-    background-color: #f4f4f6;
+    background-color: var(--background-color-shades);
     color: #888;
     padding: 60px 0 40px;
 }
 
 .footer-fourth {
-    background-color: #fff;
-    color: #606060;
+    background-color: var(--white);
+    color: var(--gray);
     padding: 40px 0;
+}
+
+.footer-lzd-southeast {
+    width: 1188px;
+    margin: 0 auto;
+}
+
+.footer-lzd-southeast h4{
+    background-color: var(--white);
 }
