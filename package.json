@@ -1,0 +1,24 @@
+{
+  "name": "lazada-demo",
+  "version": "1.0.1",
+  "description": "cat giao dien lazada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "sass": "sass --watch ./style/index.sass index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehungson2004/lazada-demo.git"
+  },
+  "author": "Hung Son",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lehungson2004/lazada-demo/issues"
+  },
+  "homepage": "https://github.com/lehungson2004/lazada-demo#readme",
+  "dependencies": {
+    "sass": "^1.92.1"
+  }
+}

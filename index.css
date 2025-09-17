@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+  color: #000;
+  font-size: 12px;
+  font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+body .header {
+  background-color: #fff;
+}
+body .header .header-lzd {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  width: 1188px;
+  margin: 0 auto;
+}
+body .header .logo-lazada {
+  width: 130px;
+  height: 40px;
+}
+body .header .logo-lazada .images-logo {
+  width: 100%;
+  height: 100%;
+}
+body .header .search {
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  overflow: hidden;
+  height: 45px;
+  display: flex;
+}
+body .header .search .search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 45px;
+  background: #eff0f5;
+  padding: 13px 19px;
+  color: #212121;
+  font-size: 14px;
+  font-family: roboto;
+}
+body .header .search .search-icon {
+  background: #f57224;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+body .header .search .search-icon i {
+  font-size: 18px;
+}
+body .header .icon-shop {
+  margin: 0 0 0 20px;
+  position: relative;
+  width: 40px;
+}
+body .header .icon-shop i {
+  font-size: 18px;
+  color: #000;
+}
+body .header .images-sale {
+  height: 45px;
+  width: 188px;
+}
+body .header .images-sale .images-sale-lazada {
+  width: 100%;
+  height: auto;
+}
+body .main {
+  margin: 0 auto;
+  width: 1188px;
+}
+body .main .sale-lzd {
+  margin-top: 24px;
+  width: 1188px;
+  height: 140px;
+}
+body .main .sale-lzd .sale-lzd-voicher {
+  width: 100%;
+  height: 100%;
+}
+body .section {
+  background: #fff;
+  width: 1188px;
+  margin: 0 auto;
+}
+body .section .padding {
+  padding-top: 24px;
+  background: #f5f5f5;
+  font-size: 22px;
+  color: #424242;
+}
+body .section .section-status-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+body .section .flex-time {
+  display: flex;
+  align-items: center;
+}
+body .section .flex-time .status-text {
+  margin-left: 20px;
+}
+body .section .flex-time .status-text p {
+  color: #f57224;
+  font-size: 14px;
+}
+body .section .section-time {
+  display: flex;
+  margin-left: 65px;
+  align-items: center;
+}
+body .section .section-time-p {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #202020;
+}
+body .section .time-sale {
+  display: flex;
+  align-items: center;
+}
+body .section .time-sale .time {
+  width: 40px;
+  height: 35px;
+  background-color: #d3232a;
+  border-radius: 2px;
+  color: #fff;
+  margin: 12px 6px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .section .btn-shop-all {
+  margin-right: 11px;
+}
+body .section .btn-shop-all .btn {
+  border: 1px solid #f57224;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #f57224;
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+body .section .information-order {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 12px;
+  background: var(--white);
+  margin-bottom: 20px;
+}
+body .section .img-brand {
+  width: 188px;
+  height: 188px;
+}
+body .section .img-brand .img-brand-sale {
+  width: 100%;
+  height: 100%;
+}
+body .section .flex {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+body .section .product-info {
+  margin: 4px 8px 0;
+}
+body .section .product-info .shorten-p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 4px;
+  color: #000;
+}
+body .section .product-info .price {
+  color: #f57224;
+  font-size: 18px;
+}
+body .section .product-info .price-sale {
+  font-size: 12px;
+}
+body .section .product-info .sale {
+  text-decoration: line-through;
+  color: #d5d5d5;
+}
+body .flex-lazmall {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+body .flex-lazmall .flex-lazmall h4 {
+  font-size: 22px;
+  color: #424242;
+}
+
+/*# sourceMappingURL=index.css.map */
