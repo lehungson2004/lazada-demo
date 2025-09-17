@@ -5,20 +5,20 @@
 
 body {
     background-color: #f5f5f5;
-    font-size: var(--font-size-twelve);
+    font-size: var(--font-size-small);
 }
 
 :root {
     --white: #fff;
     --font-base: 14px;
+    --light-gray: #f4f4f6;
     --orange: #f57224;
     --blue: #0f136d;
-    --font-style: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif;
-    --font-size-twelve: 12px;
+    --font-roboto: Roboto;
+    --font-size-small: 12px;
     --black: #212121;
     --gray: #606060;
     --border: 1px solid #e2e2e2;
-    --background-color-shades: #f4f4f6;
     --height: 40px;
 }
 
@@ -194,7 +194,7 @@ h4 {
     background-color: #f5f5f5;
     color: #424242;
     font-size: 22px;
-    font-family:var(--font-style)}
+    font-family:var(--font-roboto)}
 
 .btn {
     border: 1px solid #f57224;
@@ -298,7 +298,7 @@ h4 {
 }
 
 .shop-item p {
-  font-size: var(--font-size-twelve);
+  font-size: var(--font-size-small);
   color: #666;
 }
 
@@ -380,7 +380,7 @@ h4 {
 
 .icon span {
     color: #9e9e9e;
-    font-size: var(--font-size-twelve);;
+    font-size: var(--font-size-small);;
 }
 
 .lazmall {
@@ -399,13 +399,13 @@ h4 {
 
 .name-lazmall {
     font-size: var(--font-base);
-    font-family:var(--font-style)}
+    font-family:var(--font-roboto)}
 
 .reduce-sale {
     color: var(--black);
-    font-size: var(--font-size-twelve);
+    font-size: var(--font-size-small);
     margin-left: 4px;
-    font-family:var(--font-style)}
+    font-family:var(--font-roboto)}
 
 .icon {
     margin-top: 8px;
@@ -476,7 +476,7 @@ h4 {
 
 .footer-column ul li a {
     text-decoration: none;
-    font-size: var(--font-size-twelve);
+    font-size: var(--font-size-small);
     color: var(--blue);
 
 }
@@ -487,7 +487,7 @@ h4 {
 
 .flex-footer-column {
     display: flex;
-    background-color: var(--background-color-shades);
+    background-color: var(--light-gray);
     color: var(--white);
     padding: 20px 0 25px;
     margin: 0 auto;
@@ -522,14 +522,14 @@ h4 {
     color: #f36f36;
     font-size: 16px;
     font-weight: 300;
-    font-family:var(--font-style)}
+    font-family:var(--font-roboto)}
 
 .title-download-the-app {
     color: var(--blue);
     font-size: var(--font-base);
     font-weight: 300;
     padding-top: 2px;
-    font-family:var(--font-style)}
+    font-family:var(--font-roboto)}
 
 .download {
     height: 94px;
@@ -679,7 +679,7 @@ h4 {
 .text-lazada p{
     color: rgb(136, 136, 136);
     background-color: rgb(244, 244, 246);
-    font-size: var(--font-size-twelve);
+    font-size: var(--font-size-small);
     line-height: 14px;
     margin-bottom: 12px;
     margin-top: 6px;
@@ -694,7 +694,7 @@ h4 {
 }
 
 .footer-third {
-    background-color: var(--background-color-shades);
+    background-color: var(--light-gray);
     color: #888;
     padding: 60px 0 40px;
 }
