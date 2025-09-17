@@ -10,7 +10,7 @@ body {
 
 :root {
     --white: #fff;
-    --font-base: 14px;
+    --font-size-small-text: 14px;
     --light-gray: #f4f4f6;
     --orange: #f57224;
     --blue: #0f136d;
@@ -99,7 +99,7 @@ body {
     flex: 1;
     border: none;
     outline: none;
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     background: transparent;
     font-family: Roboto-Regular, Helvetica, sans-serif;
     padding: 13px 19px;
@@ -170,13 +170,13 @@ body {
 
 .section-time-p {
     color: #202020;
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     margin-right: 10px;
 }
 
 .status-text {
     color: var(--orange);
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     margin-left: 20px;
 }
 
@@ -202,7 +202,7 @@ h4 {
     border-radius: 2px;
     height: 35px;
     color: var(--orange);
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -293,7 +293,7 @@ h4 {
 }
 
 .shop-item h3 {
-  font-size: var(--font-base);
+  font-size: var(--font-size-small-text);
   margin: 8px 0 4px;
 }
 
@@ -366,7 +366,7 @@ h4 {
 
 .card-categories-comp-container p {
     color: var(--black);
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     text-align: center;
     margin: 8px 12px 0
 }
@@ -398,7 +398,7 @@ h4 {
 
 
 .name-lazmall {
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     font-family:var(--font-roboto)}
 
 .reduce-sale {
@@ -420,7 +420,7 @@ h4 {
     color: #1a9cb8;
     cursor: pointer;
     display: block;
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     height: var(--height);
     line-height: var(--height);
     margin: 0 auto;
@@ -526,7 +526,7 @@ h4 {
 
 .title-download-the-app {
     color: var(--blue);
-    font-size: var(--font-base);
+    font-size: var(--font-size-small-text);
     font-weight: 300;
     padding-top: 2px;
     font-family:var(--font-roboto)}
