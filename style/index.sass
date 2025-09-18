@@ -5,9 +5,9 @@
     padding: 0
 
 body
-    background: #f5f5f5
-    color: #000
-    font-size: 12px
+    background: $green-blue-stone
+    color: $black
+    font-size: $font-small
     font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important
     .header
         background-color: $white
@@ -43,15 +43,15 @@ body
                 outline: none
                 width: 100%
                 height: 45px
-                background: #eff0f5
+                background: $blue-solitude
                 padding: 13px 19px
-                color: #212121
-                font-size: 14px
+                color: $grey-nero
+                font-size: $font-base
                 font-family: roboto
 
             .search-icon
-                background: #f57224
-                color: #fff
+                background: $orange-pumpkin
+                color: $white
                 width: 50px
                 height: 50px
                 display: flex
@@ -59,17 +59,19 @@ body
                 justify-content: center
                 cursor: pointer
 
-            .search-icon i
-                font-size: 18px
+            .search-icon
+                i
+                    font-size: $font-large
 
         .icon-shop
             margin: 0 0 0 20px
             position: relative
             width: 40px
 
-        .icon-shop i
-            font-size: 18px
-            color: #000
+        .icon-shop
+            i
+                font-size: $font-large
+                color: $black
 
         .images-sale
             height: 45px
@@ -93,22 +95,22 @@ body
                 height: 100%
 
     .section
-        background: #fff
+        background: $white
         width: 1188px
         margin: 0 auto
 
         .padding
             padding-top: 24px
-            background: #f5f5f5
+            background: $green-blue-stone
             font-size: 22px
-            color: #424242
+            color: $grey-charcoal
 
         .section-status-time
             display: flex
             align-items: center
             justify-content: space-between
             width: 100%
-            border-bottom: 1px solid #d5d5d5
+            border-bottom: 1px solid $grey-light-grey
             padding: 10px 0
             margin-bottom: 10px
 
@@ -119,9 +121,10 @@ body
             .status-text
                 margin-left: 20px
 
-            .status-text p
-                color: #f57224
-                font-size: 14px
+            .status-text
+                p
+                    color: $orange-pumpkin
+                    font-size: $font-base
 
         .section-time
             display: flex
@@ -130,8 +133,8 @@ body
 
         .section-time-p
             margin-right: 10px
-            font-size: 14px
-            color: #202020
+            font-size: $font-base
+            color: $grey-nero
 
         .time-sale
             display: flex
@@ -140,9 +143,9 @@ body
             .time
                 width: 40px
                 height: 35px
-                background-color: #d3232a
+                background-color: $red-cardinal
                 border-radius: 2px
-                color: #fff
+                color: $white
                 margin: 12px 6px
                 text-align: center
                 font-size: 16px
@@ -154,20 +157,20 @@ body
             margin-right: 11px
 
             .btn
-                border: 1px solid #f57224
-                background-color: #fff
+                border: 1px solid $orange-pumpkin
+                background-color: $white
                 border-radius: 2px
-                color: #f57224
+                color: $orange-pumpkin
                 height: 35px
                 padding: 0 10px
-                font-size: 14px
+                font-size: $font-base
 
         .information-order
             cursor: pointer
             max-width: 100%
             max-height: 100%
             margin-right: 12px
-            background: var(--white)
+            background: $white
             margin-bottom: 20px
 
         .img-brand
@@ -191,24 +194,439 @@ body
                 -webkit-line-clamp: 2
                 overflow: hidden
                 margin-bottom: 4px
-                color: #000
+                color: $black
 
             .price
-                color: #f57224
-                font-size: 18px
+                color: $orange-pumpkin
+                font-size: $font-large
+                margin-bottom: 5px
 
             .price-sale
-                font-size: 12px
+                font-size: $font-small
 
             .sale
                 text-decoration: line-through
-                color: #d5d5d5
+                color: $grey-light-grey
 
     .flex-lazmall
         display: flex
         justify-content: space-between
         padding-top: 24px
 
-        .flex-lazmall h4
+    .flex-lazmall
+        h4
             font-size: 22px
-            color: #424242
+            color: $grey-charcoal
+
+    .flex-lazmall
+        span
+            font-size: $font-base
+            color: $light-blue
+
+    .shop-list
+        display: grid
+        grid-template-columns: repeat(6, 1fr)
+        overflow-x: auto
+        padding-bottom: 10px
+        justify-content: space-around
+
+        .shop-item
+            background: $white
+            cursor: pointer
+            display: block
+            height: 270px
+            overflow: hidden
+            position: relative
+            margin-right: 12px
+            max-width: 100%
+            z-index: 1
+
+        .shop-item1
+            margin-right: 0 !important
+
+        .shop-item
+            img
+                width: 100%
+
+        .text-align
+            text-align: center
+
+        .text-align
+            h3
+                font-size: $font-base
+                margin: 8px 0 5px
+
+        .text-align
+            p
+                font-size: $font-base
+                color: $grey
+
+        .cover-logo
+            width: 188px
+            height: 188px
+
+        .logo-shop
+            background-color: $white
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25)
+            box-sizing: border-box
+            display: block
+            height: 55px
+            margin: -25px auto 0
+            overflow: hidden
+            padding: 4px
+            position: relative
+            width: 55px !important
+
+    .flex-lazmall
+        color: $grey-charcoal
+        font-size: 22px
+
+    .card-categories
+        background-color: $white
+        min-height: 297px
+        width: 100%
+        display: grid
+        grid-template-columns: repeat(8, 1fr)
+
+        .card-categories-comp-container
+            background-color: $white
+            border-bottom: 1px solid $white-gainsboro
+            border-right: 1px solid $white-gainsboro
+            box-sizing: border-box
+            max-height: 100%
+            padding-top: 16px
+            max-width: 100%
+
+        .categories-img
+            width: 80px
+            height: 80px
+            display: block
+            background-color: $white
+            margin: 0 auto
+
+        .categories-img img
+            max-width: 100%
+            max-height: 100%
+
+        .card-categories-comp-container p
+            color: $grey-nero
+            font-size: $font-base
+            text-align: center
+            margin: 8px 12px 0
+
+    .flex
+        display: grid
+        grid-template-columns: repeat(6, 1fr)
+
+        .information-order
+            cursor: pointer
+            max-width: 100%
+            max-height: 100%
+            margin-right: 12px
+            background: $white
+            margin-bottom: 20px
+
+            .shorten-p
+                display: -webkit-box
+                -webkit-box-orient: vertical
+                -webkit-line-clamp: 2
+                overflow: hidden
+                margin-bottom: 4px
+                color: $black
+
+        .img-brand
+            width: 188px
+            height: 188px
+
+        .img-brand-sale
+            width: 100%
+            height: 100%
+
+        .product-info
+            margin: 4px 8px 0
+            background: $white
+            padding: 4px 8px 12px
+
+        .lazmall
+            display: inline-block
+            width: 52px
+            height: 16px
+
+            .common-lazmall
+                width: 100%
+                height: 100%
+
+    .price
+        color: $orange-pumpkin
+        font-size: $font-large
+        margin-bottom: 4px
+        margin-top: 4px
+
+    .reduce-sale
+        color: $grey-nero
+        font-size: $font-small
+        margin-left: 4px
+
+    .fa-icon
+        color: $yellow-kournikova
+
+    .icon
+        span
+            color: $blue-bright-turquoise
+            font-size: $font-small
+
+    .load-more-btn
+        align-items: center
+        padding-bottom: 9px
+        padding-top: 24px
+
+    .more-btn
+        border: 1px solid $light-blue
+        color: $light-blue
+        cursor: pointer
+        display: block
+        font-size: $font-base
+        height: 40px
+        margin: 0 auto
+        text-align: center
+        text-transform: uppercase
+        width: 387px
+
+    .footer-voucher
+        margin: 0 auto
+        width: 1188px
+
+        .flex-voicher
+            display: flex
+            border-top: 1px solid $white-gainsboro
+            padding-bottom: 24px
+            padding-top: 24px
+
+        .voicher
+            margin-right: 12px
+            width: 388px
+            height: 97px
+
+        .voicher
+            img
+                height: 100%
+                width: 100%
+
+        .shop-item1
+            margin-right: 0 !important
+
+    .flex-footer-column
+        display: flex
+        margin: 0 auto
+        width: 1188px
+
+        .footer-column
+            width: 25%
+
+        .footer-column
+            h4
+                color: $blue-sapphire
+                font-size: 16px
+                font-weight: 300
+                line-height: 35px
+
+        .footer-column
+            a
+                text-decoration: none
+                font-size: $font-small
+                color: $blue-sapphire
+                line-height: 17px
+
+        .footer-column
+            li
+                list-style: none
+
+    .flex-download-the-app
+        display: flex
+        margin-top: 25px
+        width: 50%
+
+        .download-the-app
+            width: 40px
+            height: 40px
+
+        .download-the-app
+            img
+                width: 100%
+                height: 100%
+    .title
+        padding: 0 15px
+
+        .title-always-better
+            color: $orange-pumpkin
+            font-size: 16px
+            font-weight: 300
+
+        .title-download-the-app
+            color: $blue-sapphire
+            font-size: $font-base
+            font-weight: 300
+            padding-top: 2px
+
+    .download
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        height: 94px
+        gap: 10px
+
+        .download-app
+            width: 126px
+            height: 42px
+
+        .download-app-left
+            margin-left: 20px
+
+        .download-app
+            img
+                width: 100%
+                height: 100%
+
+    .footer-second
+        background: $white
+        padding: 20px 0 25px
+
+    .lzd-footer-inner
+        width: 1188px
+        margin: 0 auto
+        display: flex
+
+        .lzd-footer-width-32
+            width: 33%
+
+        .lzd-footer-width-32
+            h4
+                font-size: 16px
+                margin-bottom: 15px
+                color: $green-tiber
+                line-height: 2.2em
+
+        .lzd-icon-payment
+            margin: 0 25px 10px 0
+            width: 55px
+            height: 40px
+            display: inline-block
+
+        .lzd-icon-payment
+            img
+                width: 100%
+                height: 100%
+
+        .lzd-app-payment
+            height: 40px
+            width: 40px
+            display: inline-block
+            margin: 0 25px 10px 0
+
+        .lzd-app-payment
+            img
+                width: 100%
+                height: 100%
+
+        .lzd-footer-spacing
+            margin-left: 4%
+
+            .lzd-app-delivery
+                width: 95px
+                height: 70px
+                display: inline-block
+
+            .lzd-app-delivery
+                img
+                    height: 100%
+                    width: 100%
+    .lzd-footer-verified-left
+        display: flex
+        gap: 10px
+        flex-direction: column
+        margin-right: 15px
+
+    .lzd-footer-verified-left-pci
+        width: 90px
+        height: 60px
+
+    .lzd-footer-verified-left-pci
+        img
+            height: 100%
+            width: 100%
+
+    .lzd-footer-verified-left-vn
+        width: 80px
+        height: 80px
+
+    .lzd-footer-verified-left-vn
+        img
+            width: 100%
+            height: 100%
+
+    .lzd-footer-verified-left-iso
+        width: 80px
+        height: 40px
+
+    .lzd-footer-verified-left-iso
+        img
+            width: 100%
+            height: 100%
+
+    .flex-verified-by
+        display: flex
+
+    .lzd-footer-verified-item
+        width: 107px
+        height: 40px
+
+    .lzd-footer-verified-item
+        img
+            width: 100%
+            height: 100%
+
+    .text-lazada
+        width: 50%
+        column-count: 2
+
+    .footer-third
+        color: $grey
+        padding: 60px 0 40px
+
+    .text-lazada
+        h3
+            font-size: 16px
+            color: $grey-dim-gray
+            font-weight: 300
+            line-height: 20px
+            margin: 0 0 5px
+
+    .text-lazada
+        p
+            font-size: $font-small
+            padding-right: 25%
+
+    .footer-fourth
+        background: $white
+        padding: 40px 0
+
+    .footer-lzd-southeast
+        width: 1188px
+        margin: 0 auto
+
+    .footer-lzd-southeast
+        h4
+            margin: 5px 10px 5px 0
+            font-size: 16px
+            font-weight: 300
+            line-height: 20px
+
+    .footer-lzd-southeast
+        a
+            width: 35px
+            height: 35px
+            display: inline-block
+
+    .footer-lzd-southeast
+        img
+            width: 100%
+            height: 100%
